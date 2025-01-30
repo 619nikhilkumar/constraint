@@ -2,4 +2,9 @@ class gen;
 
 `uvm_component_utils(gen)
 
+function new(string name="gen",uvm_component parent);
+super.new(name,parent);
+endfunction
+
+
 endclass
