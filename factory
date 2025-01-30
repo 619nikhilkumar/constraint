@@ -1,1 +1,5 @@
+class gen;
 
+`uvm_component_utils(gen)
+
+endclass
